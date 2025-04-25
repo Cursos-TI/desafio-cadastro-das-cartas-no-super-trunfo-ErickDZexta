@@ -26,22 +26,22 @@ int main() {
     printf("Informe o Estado (A a H): ");
     scanf(" %c", &estado1);
 
-    printf("Informe o Código da Carta (ex: A01): ");
-    scanf("%s", codigo1);
+    printf("Informe o Código da Carta (ex: A01):\n");
+    scanf("%c", codigo1);
 
-    printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade1); // Lê string com espaços
+    printf("Informe o Nome da Cidade:\n");
+    scanf("%c", nomeCidade1); // Lê string com espaços
 
-    printf("Informe a População: ");
+    printf("Informe a População:\n");
     scanf("%d", &populacao1);
 
-    printf("Informe a Área (em km²): ");
+    printf("Informe a Área (em km²):\n");
     scanf("%f", &area1);
 
-    printf("Informe o PIB (em bilhões de reais): ");
+    printf("Informe o PIB (em bilhões de reais):\n");
     scanf("%f", &pib1);
 
-    printf("Informe o Número de Pontos Turísticos: ");
+    printf("Informe o Número de Pontos Turísticos:\n");
     scanf("%d", &pontosTuristicos1);
 
     printf("\n");
@@ -51,22 +51,22 @@ int main() {
     printf("Informe o Estado (A a H): ");
     scanf(" %c", &estado2);
 
-    printf("Informe o Código da Carta (ex: B03): ");
+    printf("Informe o Código da Carta (ex: B03):\n");
     scanf("%s", codigo2);
 
-    printf("Informe o Nome da Cidade: ");
+    printf("Informe o Nome da Cidade:\n");
     scanf(" %[^\n]", nomeCidade2);
 
-    printf("Informe a População: ");
+    printf("Informe a População:\n");
     scanf("%d", &populacao2);
 
-    printf("Informe a Área (em km²): ");
+    printf("Informe a Área (em km²):\n");
     scanf("%f", &area2);
 
-    printf("Informe o PIB (em bilhões de reais): ");
+    printf("Informe o PIB (em bilhões de reais):\n");
     scanf("%f", &pib2);
 
-    printf("Informe o Número de Pontos Turísticos: ");
+    printf("Informe o Número de Pontos Turísticos:\n");
     scanf("%d", &pontosTuristicos2);
 
     printf("\n");
